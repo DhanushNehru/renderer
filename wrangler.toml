@@ -1,0 +1,11 @@
+name = "got-a-page-renderer"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+# The compiled, static index of instant pages (published by the claim repo's CI).
+[vars]
+INDEX_URL = "https://got-a-page.github.io/claim/index.json"
+SITE_URL = "https://got-a.page"
+
+# The wildcard route is added once in the dashboard (docs/SETUP.md step 2):
+#   route: *.got-a.page/*  on zone got-a.page

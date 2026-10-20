@@ -1,0 +1,17 @@
+{
+  "name": "got-a-page-renderer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The tiny Cloudflare Worker that renders instant pages on *.got-a.page.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "wrangler": "4.151.3",
+    "@cloudflare/workers-types": "5.20261019.1"
+  }
+}
